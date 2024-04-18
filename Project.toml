@@ -1,0 +1,13 @@
+name = "UnitsBase"
+uuid = "787dc1d5-de95-43fe-a655-c9f9436a3830"
+authors = ["Alexander Plavin <alexander@plav.in>"]
+version = "0.1.0"
+
+[weakdeps]
+DynamicQuantities = "06fc5a27-2a28-4c7c-a15d-362465fb6821"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[extensions]
+DynamicQuantitiesExt = "DynamicQuantities"
+UnitfulExt = "Unitful"
+UnitfulDynamicQuantitiesExt = ["Unitful", "DynamicQuantities"]
